@@ -17,9 +17,12 @@
       <div class="content">
         {{ block "main" . }} {{ end }}
       </div>
+
+      <script src="{{ "assets/main.js" | absURL }}"></script>
+      <script src="{{ "assets/prism.js" | absURL }}"></script>
     </div>
 
-   {{ if $.Site.GoogleAnalytics }}
+    {{ if $.Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
   </body>
