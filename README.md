@@ -9,7 +9,7 @@
 ---
 
 - [Hello Friend](#hello-friend)
-  - [DEMO - https://hugo-hello-friend.now.sh/](#demo)
+    - [DEMO - https://hugo-hello-friend.now.sh/ <a id="demo" />](#demo---httpshugo-hello-friendnowsh-a-iddemo-)
   - [Features](#features)
       - [Built-in shortcodes](#built-in-shortcodes)
       - [Code highlighting](#code-highlighting)
@@ -21,9 +21,9 @@
   - [How to display the Last Modified Date in your posts](#how-to-display-the-last-modified-date-in-your-posts)
   - [How to hide "Read more" button](#how-to-hide-read-more-button)
   - [Add-ons](#add-ons)
-  - [How to (safely) edit the theme](#how-to-edit)
-  - [Found a bug?](#bug)
-  - [New cool idea or feature](#feature)
+  - [How to (safely) edit the theme <a id="how-to-edit" />](#how-to-safely-edit-the-theme-a-idhow-to-edit-)
+  - [Found a bug? <a id="bug" />](#found-a-bug-a-idbug-)
+  - [New cool idea or feature? <a id="feature" />](#new-cool-idea-or-feature-a-idfeature-)
   - [`Hello Friend` theme user?](#hello-friend-theme-user)
   - [Sponsoring](#sponsoring)
   - [License](#license)
@@ -222,7 +222,6 @@ In a post's front matter you have to add `hideReadMore` param set to `true`. Thi
 - **Comments** — for adding comments to your blog posts please take a look at `layouts/partials/comments.html` https://github.com/panr/hugo-theme-terminal/blob/master/layouts/partials/comments.html.
 - **Prepended `<head>`** — if you need to add something inside `<head>` element, and before any of the theme's `<script>` and `<link>` tags are declared, please take a look at `layouts/partial/prepended_head.html` https://github.com/panr/hugo-theme-hello-friend/blob/master/layouts/partials/prepended_head.html
 - **Extended `<head>`** — if you need to add something inside `<head>` element, after all of all of the theme's `<script>` and `<link>` tags are declared, please take a look at `layouts/partial/extended_head.html` https://github.com/panr/hugo-theme-hello-friend/blob/master/layouts/partials/extended_head.html
-- **Extended `<footer>`** — if you need to add something before end of `<body>` element, please take a look at `layouts/partial/extended_footer.html` https://github.com/panr/hugo-theme-hello-friend/blob/master/layouts/partials/extended_footer.html
 
 ## How to (safely) edit the theme <a id="how-to-edit" />
 
